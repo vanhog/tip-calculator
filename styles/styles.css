@@ -19,6 +19,6 @@
   }
 
   .qualitybutton {
-    @apply flex flex-col justify-center items-center h-15 border-2 border-tc-light rounded-lg;
+    @apply p-2 flex flex-col justify-center items-center  border-2 border-tc-light rounded-lg;
   }
 }
