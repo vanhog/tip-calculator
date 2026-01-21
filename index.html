@@ -27,7 +27,7 @@
             <input
               type="text"
               id="inAmount"
-              class="w-full border border-blue-100 my-2 py-2 rounded-md"
+              class="w-full border border-blue-100 my-2 py-2 rounded-md text-right text-cyan-100 font-bold"
             />
           </div>
 
@@ -39,7 +39,7 @@
               type="text"
               id="inPeople"
               aria-labelledby="inPeopleLabel"
-              class="w-full border border-blue-100 my-2 py-2 rounded-md"
+              class="w-full border border-blue-100 my-2 py-2 rounded-md text-right text-cyan-100 font-bold"
             />
           </div>
 
@@ -94,39 +94,75 @@
             id="results"
             class="bg-tc-light border border-cyan-800 rounded-lg my-5 p-4 text-white"
           >
-            <div id="tipAmount" class="flex flex-row justify-between">
-              <div id="tipAmountDescription" class="flex flex-row">
-                <div>ico</div>
+            <div
+              id="tipAmount"
+              class="flex flex-row justify-between items-center"
+            >
+              <div id="tipAmountDescription" class="flex flex-row py-2">
+                <div>
+                  <img
+                    src="./assets/euro-banknote-svgrepo-com.svg"
+                    alt=""
+                    class="w-7 pe-2"
+                  />
+                </div>
                 <div>Tip amount</div>
               </div>
-              <div id="tipAmountAmount">0.34</div>
+              <div id="tipAmountAmount">
+                €<span id="tipAmountValue">0.34</span>
+              </div>
             </div>
-            <div id="totalBill" class="flex flex-row justify-between">
-              <div id="totalBillDescription" class="flex flex-row">
-                <div>ico</div>
+            <div
+              id="totalBill"
+              class="flex flex-row justify-between items-center"
+            >
+              <div id="totalBillDescription" class="flex flex-row py-2">
+                <div>
+                  <img src="./assets/bill-8854.svg" alt="" class="w-7 pe-2" />
+                </div>
                 <div>Total bill</div>
               </div>
-              <div id="totalBillAmount">0.34</div>
+              <div id="totalBillAmount">
+                €<span id="totalBillValue">0.34</span>
+              </div>
             </div>
             <hr class="border-[0.5px] text-cyan-900 my-3" />
-            <div id="perPerson" class="flex flex-row justify-between">
+            <div
+              id="perPerson"
+              class="flex flex-row justify-between items-center"
+            >
               <div id="perPersonDescription" class="flex flex-row">
-                <div>ico</div>
+                <div>
+                  <img src="./assets/person-295.svg" alt="" class="w-7 pe-2" />
+                </div>
                 <div>Per person</div>
               </div>
-              <div id="perPersonAmount">0.34</div>
+
+              <div
+                id="perPersonAmount"
+                class="font-bold text-xl text-green-300"
+              >
+                €<span id="perPersonValue">0.34</span>
+              </div>
             </div>
           </div>
           <div id="resetButton" class="my-3">
             <button
               type="button"
-              class="w-full border border-blue-700 text-white"
+              class="w-full border border-blue-700 text-cyan-100 rounded-md py-3"
             >
               RESET CALCULATOR
             </button>
           </div>
         </article>
-        <article id="tailing">Made with love</article>
+        <article id="tailing" class="text-xs text-cyan-800 mb-4">
+          Made with love
+          <img
+            src="./assets/red-heart-11121.svg"
+            alt=""
+            class="w-4 p-1 inline"
+          />for learning TypeScript
+        </article>
       </section>
     </main>
   </body>
