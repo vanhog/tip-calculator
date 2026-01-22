@@ -23,22 +23,22 @@
         </article>
         <article id="calculator" class="p-6">
           <div>
-            <label for="inAmount" class="labeltext">BILL AMOUNT</label>
+            <label for="billAmount" class="labeltext">BILL AMOUNT</label>
             <input
               type="text"
-              id="inAmount"
+              id="billAmount"
               class="w-full border border-tc-text my-2 py-2 rounded-md text-right text-tc-text font-bold caret-tc-text"
               value=" "
             />
           </div>
 
           <div>
-            <label for="inPeople" id="inPeopleLabel" class="labeltext"
+            <label for="numPeople" id="inPeopleLabel" class="labeltext"
               >NUMBER OF PEOPLE</label
             >
             <input
               type="text"
-              id="inPeople"
+              id="numPeople"
               aria-labelledby="inPeopleLabel"
               class="w-full border border-tc-text my-2 py-2 rounded-md text-right text-tc-text font-bold caret-tc-text"
               value=" "
@@ -55,7 +55,7 @@
             id="service_quality"
             class="grid grid-cols-3 justify-center my-2 gap-3"
           >
-            <li class="qualitybutton">
+            <li class="qualitybutton" id="qualityPoor">
               <button type="button">
                 <img
                   src="./assets/poor.svg"
@@ -66,7 +66,7 @@
                 <p class="servicepercentage">2%</p>
               </button>
             </li>
-            <li class="qualitybutton">
+            <li class="qualitybutton" id="qualityAverage">
               <button
                 type="button"
                 class="flex flex-col justify-center items-center"
@@ -80,7 +80,7 @@
                 <p class="servicepercentage">10%</p>
               </button>
             </li>
-            <li class="qualitybutton">
+            <li class="qualitybutton" id="qualityExcellent">
               <button
                 type="button"
                 class="flex flex-col justify-center items-center"
@@ -151,7 +151,7 @@
           <div id="resetButton" class="my-3">
             <button
               type="button"
-              class="w-full border border-tc-text text-tc-text rounded-md py-3"
+              class="w-full border border-tc-text text-tc-text rounded-md py-3 hover:border-tc-emphasize"
             >
               RESET CALCULATOR
             </button>
@@ -167,5 +167,6 @@
         </article>
       </section>
     </main>
+    <script src="./src/main.ts"></script>
   </body>
 </html>
