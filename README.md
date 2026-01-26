@@ -1,6 +1,6 @@
 # VAT Calculator
 
-This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.opencampus.sh/en) Tip calculator challenge.  
+This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.opencampus.sh/en) Tip calculator challenge.
 
 ## Table of contents
 
@@ -9,12 +9,9 @@ This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.openca
 - [Built with](#built-with)
 - [Author](#author)
 
-
-
 ### Screenshot
 
-![](./images/screenshot.png)
-
+![](./assets/screenshot.png)
 
 ### Links
 
@@ -29,7 +26,6 @@ This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.openca
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
 
 ## Author
 
