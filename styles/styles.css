@@ -26,4 +26,12 @@
   .qualitybutton {
     @apply p-2 flex flex-col justify-center items-center  border-2 border-tc-light rounded-lg hover:border-2 hover:border-tc-emphasize;
   }
+
+  .attribution {
+    @apply text-xs text-center text-cyan-700 font-sans;
+  }
+
+  .attribution a {
+    @apply text-blue-400;
+  }
 }

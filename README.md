@@ -1,5 +1,7 @@
 # Tip Calculator
 
+**For training use only. Do not use in production. No warranty.**
+
 This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.opencampus.sh/en) Tip calculator challenge.
 
 ## Table of contents
@@ -9,16 +11,16 @@ This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.openca
 - [Built with](#built-with)
 - [Author](#author)
 
-### Screenshot
+## Screenshot
 
 ![](./assets/screenshot.png)
 
-### Links
+## Links
 
 - Solution URL:[ https://github.com/vanhog/ocwebdev_ac_tipcalculator](https://github.com/vanhog/ocwebdev_ac_tipcalculator)
 - Live Site URL: [https://vanhogs-ocwebdev-tipcalculator.netlify.app/](https://vanhogs-ocwebdev-tipcalculator.netlify.app/)
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
