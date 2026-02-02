@@ -9,6 +9,7 @@ This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.openca
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
+- [Acknowledgements](#acknowledgements)
 - [Author](#author)
 
 ## Screenshot
@@ -28,6 +29,10 @@ This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.openca
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+## Acknowledgements
+
+The icons are taken from https://www.reshot.com/free-svg-icons/
 
 ## Author
 
