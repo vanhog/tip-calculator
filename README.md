@@ -17,7 +17,7 @@ This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.openca
 
 ## Links
 
-- Solution URL:[ https://github.com/vanhog/ocwebdev_ac_tipcalculator](https://github.com/vanhog/ocwebdev_ac_tipcalculator)
+- Solution URL:[ https://github.com/vanhog/tip-calculator](https://github.com/vanhog/tip-calculator)
 - Live Site URL: [https://vanhogs-ocwebdev-tipcalculator.netlify.app/](https://vanhogs-ocwebdev-tipcalculator.netlify.app/)
 
 ## Built with
