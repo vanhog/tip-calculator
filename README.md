@@ -9,12 +9,13 @@ This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.openca
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Built with](#built-with)
+- [Flowchart](#flowchart)
 - [Acknowledgements](#acknowledgements)
 - [Author](#author)
 
 ## Screenshot
 
-![](./assets/screenshot.png)
+![Screenshot of tip calculator](./assets/screenshot.png)
 
 ## Links
 
@@ -29,6 +30,10 @@ This is a solution to the [OpenCampus WebDev Program 2025's ](https://edu.openca
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+## Flowchart
+
+![Flowchart of tip calculator](./assets/flowchart.png)
 
 ## Acknowledgements
 
